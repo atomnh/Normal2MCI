@@ -1,0 +1,5 @@
+hub Normal2MCI_candidateProbes
+shortLabel candidate probes
+longLabel candidate probes of Normal2MCI
+genomesFile genomes.txt
+email lihua.huang@link.cuhk.edu.hk

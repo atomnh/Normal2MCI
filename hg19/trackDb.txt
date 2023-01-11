@@ -1,0 +1,41 @@
+track CandidateProbes
+bigDataUrl candidateP.bb
+shortLabel Candidate probes
+longLabel Loci of candidate probes
+type bigBed
+
+track Effect_size_candidateProbes
+bigDataUrl candidateP.bw
+shortLabel effect size of candidate probes
+longLabel Mean effect size of candidate probes
+type bigWig
+
+track CardiovascularTraits
+bigDataUrl cardio_related_traits.sorted.bw
+shortLabel Cardiovascular traits
+longLabel -log10(P-value) of association with cardiovascular traits
+type bigWig
+
+track CognitiveTraits
+bigDataUrl cogntive_related_traits.sorted.bw
+shortLabel Cognitive related traits
+longLabel -log10(P-value) of association with Cognitive related traits
+type bigWig
+
+track OtherTraits
+bigDataUrl other_related_traits.sorted.bw
+shortLabel Other traits
+longLabel -log10(P-value) of association with other traits
+type bigWig
+
+track meQTL_SNPs
+bigDataUrl meQTL.snp.bb
+shortLabel Associated SNPs by meQTL
+longLabel Loci of associated SNPs by meQTL
+type bigBed
+
+track meQTL_SNPs_pvalue
+bigDataUrl meQTL.snp.bw
+shortLabel Associated SNPs by meQTL
+longLabel -log10(P-value) of associated SNPs by meQTL
+type bigBed
