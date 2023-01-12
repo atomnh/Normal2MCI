@@ -30,12 +30,12 @@ type bigWig
 
 track meQTL_SNPs
 bigDataUrl meQTL.snp.bb
-shortLabel Associated SNPs by meQTL
+shortLabel SNPs by meQTL
 longLabel Loci of associated SNPs by meQTL
 type bigBed
 
 track meQTL_SNPs_pvalue
 bigDataUrl meQTL.snp.bw
-shortLabel Associated SNPs by meQTL
+shortLabel SNPs by meQTL
 longLabel -log10(P-value) of associated SNPs by meQTL
 type bigWig
