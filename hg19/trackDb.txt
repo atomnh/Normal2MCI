@@ -38,4 +38,4 @@ track meQTL_SNPs_pvalue
 bigDataUrl meQTL.snp.bw
 shortLabel Associated SNPs by meQTL
 longLabel -log10(P-value) of associated SNPs by meQTL
-type bigBed
+type bigWig
