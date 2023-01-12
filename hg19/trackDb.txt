@@ -7,7 +7,7 @@ type bigBed
 track Effect_size_candidateProbes
 bigDataUrl candidateP.bw
 shortLabel Effect size
-longLabel effect size of candidate probes
+longLabel Effect size of candidate probes
 type bigWig
 
 track CardiovascularTraits
