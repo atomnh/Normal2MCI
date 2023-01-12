@@ -5,8 +5,9 @@ longLabel Loci of candidate probes
 type bigBed
 
 track Effect_size_candidateProbes
-bigDataUrl candidateP.bwshortLabel effect size of candidate probes
+bigDataUrl candidateP.bw
 shortLabel Effect size
+longLabel effect size of candidate probes
 type bigWig
 
 track CardiovascularTraits
